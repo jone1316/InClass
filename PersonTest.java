@@ -4,10 +4,29 @@ import org.junit.jupiter.api.Test;
 
 class PersonTest
 {
+    
+    @Test
+    public void test()
+    {
+        try
+        {
+            String firstName = " ";
+            String lastName = " ";
+            
+        }
+    }
 
     @Test
-    void test()
+    public void constructorOrderTest()
     {
+        try
+        {
+            String firstName = "Bo";
+            String lastName = "Smith";
+            Person x = new Person(firstName, lastName);
+            
+            String expected = 
+        }
         fail("Not yet implemented");
     }
 
